@@ -6,6 +6,7 @@ This is incomplete and not working.
 This is an attempt to be able to provision a CDMA iPhone 4 by using a dylib injection with the CommCenter to hijack the baseband file discriptor and making 
 a TCP server to use with a client software
 
+This is how all current paid solutions that I am aware of accomplish provisioning the phone.
 
 Requirements
 ----------------------------
