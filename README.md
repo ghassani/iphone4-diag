@@ -1,9 +1,9 @@
 iPhone 4 CDMA DIAG Attempt
 -----------------------------
 
-This is incomplete and not working.
+This is incomplete, no longer worked on, and not fully 100% working, mostly just a prototype/basics of how it can be done based upon reversing of existing solutions.
 
-This is an attempt to be able to provision a CDMA iPhone 4 by using a dylib injection with the CommCenter to hijack the baseband file discriptor and making 
+This is an attempt to be able to provision a CDMA iPhone 4 by using a dylib injection with the CommCenter to hijack the baseband file descriptor and making 
 a TCP server to use with a client software
 
 This is how all current paid solutions that I am aware of accomplish provisioning the phone.
@@ -32,8 +32,6 @@ Issues
 ------------------------------
 - baseband doesn't accept normal commands? I assume it's speaking QMI. 
 - not stable
-- logging needs work
-- im new to c++, there is probably a lot of room for code improvements
 - only tested on 6.1.3
    
 
