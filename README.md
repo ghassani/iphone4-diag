@@ -30,7 +30,7 @@ Usage
 
 Issues
 ------------------------------
-- baseband doesn't accept normal commands? I assume it's speaking QMI. 
+- baseband doesn't accept normal QCDM commands? I assume it's speaking QMI.
 - not stable
 - only tested on 6.1.3
    
